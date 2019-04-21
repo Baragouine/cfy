@@ -112,7 +112,7 @@ int            convert_file_to_array(vector<string> const& args_)
             {
                 int const   byte = +ifs.get();
 
-                if (byte >= 0 && byte <= 255)
+                if (ifs)
                 {
                     if (i != 0)
                         ofs << ",";
