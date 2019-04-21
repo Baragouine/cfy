@@ -4,8 +4,11 @@ BRIEF
 COMPILATION
     make
 
+INSTALL
+    # sh ./install.sh
+
 RUN
-    ./bin/cfy <SRC> [-a <ARRAY_NAME>] [-o <FILE>]
+    cfy <SRC> [-a <ARRAY_NAME>] [-o <FILE>]
 
 DESCRIPTION
     SRC         File to convert on array c langage
